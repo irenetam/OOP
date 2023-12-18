@@ -1,6 +1,6 @@
 ﻿using PizzaStore.Enums;
 
-namespace PizzaStore.Pizzas
+namespace PizzaStore.Pizzas.Base
 {
     public abstract class Pizza
     {

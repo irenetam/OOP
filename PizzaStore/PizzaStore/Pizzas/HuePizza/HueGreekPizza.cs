@@ -1,8 +1,10 @@
-﻿namespace PizzaStore.Pizzas;
+﻿using PizzaStore.Pizzas.Base;
 
-public class GreekPizza: Pizza
+namespace PizzaStore.Pizzas;
+
+public class HueGreekPizza: Pizza
 {
-    public GreekPizza()
+    public HueGreekPizza()
     {
         Name = "The best greek pizza";
         Sauce = Enums.Sauce.Pepper;
