@@ -3,4 +3,4 @@
 Console.WriteLine("Hello, World!");
 
 var pizza = new PizzaStore.PizzaStore();
-pizza.OrderPizza();
+pizza.OrderPizza(PizzaStore.Enums.TypeOfPizza.CheesePizza);

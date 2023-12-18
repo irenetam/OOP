@@ -4,7 +4,7 @@ public class PepperonPizza: Pizza
 {
     public PepperonPizza()
     {
-        Name = "The best cheese pepperon";
+        Name = "The best pepperon pizza";
         Sauce = Enums.Sauce.Pepper;
         Dough = Enums.Dough.Thick;
         Toppings.Add(Enums.Topping.BlackOlives);

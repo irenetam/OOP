@@ -4,10 +4,10 @@ namespace PizzaStore.Pizzas
 {
     public abstract class Pizza
     {
-        protected string? Name { get; set; }
-        protected Dough Dough { get; set; }
-        protected Sauce Sauce { get; set; }
-        protected List<Topping> Toppings { get; set; }
+        protected string? Name;
+        protected Dough Dough;
+        protected Sauce Sauce;
+        protected List<Topping> Toppings = new List<Topping>();
 
         public void Prepare()
         {
@@ -29,7 +29,7 @@ namespace PizzaStore.Pizzas
             Console.WriteLine("Cutting " + Name);
         }
 
-        public void Box()
+        public virtual void Box()
         {
             Console.WriteLine("Box " + Name);
         }

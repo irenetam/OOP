@@ -10,5 +10,11 @@
             Toppings.Add(Enums.Topping.BlackOlives);
             Toppings.Add(Enums.Topping.Cheese);
         }
+
+        public override void Box()
+        {
+            base.Box();
+            Console.WriteLine(Dough);
+        }
     }
 }
